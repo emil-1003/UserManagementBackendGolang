@@ -29,7 +29,7 @@ $ sudo docker build -t [name] .
 # 1. --name set name
 # 2. -p set ports
 # 3. -d run in background
-$ docker run --name=[name] -p 80:8888 -d [image name]
+$ sudo docker run --name=[name] -p 80:8888 -d [image name]
 ```
 
 ---
